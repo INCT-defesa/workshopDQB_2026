@@ -250,7 +250,10 @@ h1{font-size:clamp(2.35rem,5vw,5rem);font-weight:500;max-width:980px;margin-bott
 }
 @media (max-width:680px){
   .site-header .brand img { height: 44px; max-width: 165px; }
-  .hero-brand img { height: 64px; max-width: 220px; }
+  .hero-brand img { width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; }
   .site-footer .brand img { height: 50px; max-width: 180px; }
 }
 
